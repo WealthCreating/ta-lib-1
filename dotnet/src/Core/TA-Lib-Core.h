@@ -92,6 +92,9 @@ namespace TicTacTec
 		  public:
 			 #include "ta_defs.h"
 
+		  public:
+			static const int IntDefault = TA_INTEGER_DEFAULT;
+			static const double RealDefault = TA_REAL_DEFAULT;
 
 		  private:
 			  ref class CandleSetting sealed 
